@@ -32,6 +32,7 @@ This function computes and plots a survival curve based on provided status and t
 
 ### Input
 <b>status:</b> A numeric vector indicating whether an event occurred (1) or not (0).
+
 <b>time:</b> A numeric vector indicating the time at which each event or censoring occurred.
 
 ### Output
@@ -57,6 +58,7 @@ This function performs PCA on the provided data matrix and uses the specified nu
 
 ### Input
 <b>x:</b> A numeric matrix or data frame where rows are observations and columns are variables.
+
 <b>npc:</b> The number of principal components.
 
 ### Output
@@ -81,6 +83,7 @@ This function calculates the minimum sample size required to achieve a specified
 
 ### Input
 <b>x1:</b> Numeric vector of data for the first sample.
+
 <b>x2:</b> Numeric vector of data for the second sample.(Optional)
 
 ### Output
@@ -93,7 +96,9 @@ This function retrieve a report from REDCap using the specified API token, repor
 
 ### Input
 <b>redcapTokenName:</b> The name of the environment variable that stores the REDCap API token.
+
 <b>redcapUrl:</b> The URL of the REDCap.
+
 <b>redcapReportId:</b> The id of the report to be downloaded.
 
 ### Output
