@@ -9,7 +9,7 @@ This package is written in R.
 
 - The directory <b>R</b> contains all functions' R scripts.
 - The <b>DESCRIPTION</b> file contains the author information and specify the needed package.
-- The <b>examples/Final_Projects_Examples.RMD</b> shows how to use each function.
+- The <b>examples/Final_Projects_Examples.Rmd</b> shows how to use each function.
 
 ---
 
