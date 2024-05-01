@@ -1,0 +1,24 @@
+Package: BMI510FP
+Type: Package
+Title: BMI510 Final Project
+Version: 0.1.0
+Author: Mingyang Wei
+Maintainer: The package maintainer <mingyang.wei@emory.edu>
+Description: This package is made for Emory University BMI510 Final Project.
+    This package contains 7 functions.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.1
+Roxygen: list(markdown = TRUE, roclets = c("namespace", "rd"))
+Imports: 
+    dplyr,
+    ggplot2,
+    httr,
+    janitor,
+    pwr,
+    snakecase,
+    stats,
+    tibble,
+    tidyverse,
+    utils
