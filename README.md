@@ -47,7 +47,7 @@ This function reverses the scaling and centering transformation applied to a num
 ### Input
 <b>x:</b> A numeric vector that may have been scaled and centered.
 
-###Output
+### Output
 <b>return:</b> A numeric vector with the scaling and centering reversed.
 
 ---
