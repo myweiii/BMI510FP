@@ -11,7 +11,11 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ```{r}
 #source("Final_Project.R")
+#uninstall("BMI510FP")
+library(devtools)
+install_github("myweiii/BMI510FP")
 library(BMI510FP)
+library(tidyverse)
 
 
 ### 1
